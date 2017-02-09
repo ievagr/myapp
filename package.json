@@ -4,6 +4,7 @@
   "description": "My app",
   "main": "myapp.js",
   "scripts": {
+    "start": "pwd",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/ievagr/myapp#readme",
   "devDependencies": {
-    "react": "^15.4.2"
+    "react": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "moment": "^2.17.1"
   }
 }
